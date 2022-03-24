@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/DHL_Logo.svg" type="image/x-icon">
+    <title>Transport Document</title>
+</head>
+
+<body>
+    <header>
+        <img src="assets/DHL_Logo.svg" alt="DHL Logo" class="dhlLogo">
+        <img src="assets/DHDHL_Logo.svg" alt="DPDHL Logo" class="dpdhlLogo">
+    </header>
+
+    <form class="majorDivForAll">
+        <!-- Don't Mind how I name my Divs. -->
+
+        <!-- 
+
+            HANDLING UNIT
+
+         -->
+        <div class="InfoDivs">
+            <h3>Handling Units</h3>
+            <div class="inputDivs">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+                <input type="text" name="handlingUnit" id="handlingUnit" class="inputField" placeholder="Input HU">
+            </div>
+        </div>
+
+        <!-- 
+
+            LOAD MASTER
+
+         -->
+
+        <div class="InfoDivs">
+            <h3>Load Master</h3>
+            <div class="inputDivs">
+                <input type="text" name="loadMaster-firstname" id="loadMaster-firstname" class="inputField"
+                    placeholder="First Name">
+                <input type="text" name="loadMaster-signature" id="loadMaster-signature" class="inputField"
+                    placeholder="Signature">
+                <input type="date" name="loadMaster-date" id="loadMaster-date" class="inputField" placeholder="Date">
+                <input type="time" name="loadMaster-time" id="loadMaster-time" class="inputField" placeholder="Time">
+            </div>
+        </div>
+
+        <!-- 
+
+            SHUTTLE DRIVER
+
+         -->
+
+        <div class="InfoDivs">
+            <h3>Shuttle Driver</h3>
+            <div class="inputDivs">
+                <input type="text" name="shuttleDriver-firstname" id="shuttleDriver-firstname" class="inputField"
+                    placeholder="First Name">
+                <input type="text" name="shuttleDriver-signature" id="shuttleDriver-signature" class="inputField"
+                    placeholder="Signature">
+                <input type="date" name="shuttleDriver-date" id="shuttleDriver-date" class="inputField"
+                    placeholder="Date">
+                <input type="time" name="shuttleDriver-time" id="shuttleDriver-time" class="inputField"
+                    placeholder="Time">
+            </div>
+        </div>
+
+        <!-- 
+
+            SEALED BY
+
+         -->
+
+        <div class="InfoDivs">
+            <h3>Sealed By (Security)</h3>
+            <div class="inputDivs">
+                <input type="text" name="sealedBy-firstname" id="sealedBy-firstname" class="inputField"
+                    placeholder="First Name">
+                <input type="text" name="sealedBy-signature" id="sealedBy-signature" class="inputField"
+                    placeholder="Signature">
+                <input type="date" name="sealedBy-date" id="sealedBy-date" class="inputField" placeholder="Date">
+                <input type="time" name="sealedBy-time" id="sealedBy-time" class="inputField" placeholder="Time">
+            </div>
+        </div>
+
+        <!-- 
+
+            TRANSPORT INFO
+
+         -->
+
+        <div class="InfoDivs">
+            <h3>Transport Info</h3>
+            <div class="inputDivs">
+                <input type="text" name="vehicle-number" id="vehicle-number" class="inputField"
+                    placeholder="Vehicle Number">
+                <input type="text" name="sendto-facility" id="sendto-facility" list="facilities" class="inputField"
+                    placeholder="Send to Facility"><br>
+                <datalist id="facilities">
+                    <option value="GTW">LOS GTW</option>
+                    <option value="HUB">LOS HUB</option>
+                    <option value="BDG">LOS BDG</option>
+                    <option value="MAL">MAL</option>
+                    <option value="VIL">VIL</option>
+                    <option value="BRL">BRL</option>
+                    <option value="APP">APP</option>
+                    <option value="HVA">HVA</option>
+                </datalist>
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+
+    <script>
+        function tab(e) {
+            if (e.which == 13) {
+                e.target.nextSibling.nextSibling.focus();
+                e.preventDefault();
+            }
+        }
+        var inputs = document.getElementsByTagName('input');
+        for (var x = 0; x < inputs.length; x++) {
+            var input = inputs[x];
+            input.onkeypress = tab;
+        }
+    </script>
+</body>
+
+</html>

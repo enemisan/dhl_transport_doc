@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="32.8 -755.8 179.5 25.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d30511;
+      }
+    </style>
+  </defs>
+  <g id="DHL_1_" transform="translate(-77.9 -1139)">
+    <g id="Group_19" data-name="Group 19">
+      <g id="Group_17" data-name="Group 17">
+        <path id="Path_5" data-name="Path 5" class="cls-1" d="M110.7,403.4H135l-1.3,1.8h-23Z"/>
+        <path id="Path_6" data-name="Path 6" class="cls-1" d="M110.7,400.1h26.8l-1.4,1.8H110.7Z"/>
+        <path id="Path_7" data-name="Path 7" class="cls-1" d="M110.7,406.8h21.8l-1.3,1.7H110.7Z"/>
+      </g>
+      <g id="Group_18" data-name="Group 18">
+        <path id="Path_8" data-name="Path 8" class="cls-1" d="M290.2,405.2H266l1.4-1.8h22.8Z"/>
+        <path id="Path_9" data-name="Path 9" class="cls-1" d="M290.2,408.5H263.6l1.3-1.8h25.3Z"/>
+        <path id="Path_10" data-name="Path 10" class="cls-1" d="M269.8,400.1h20.4v1.8H268.5Z"/>
+      </g>
+    </g>
+    <g id="Group_20" data-name="Group 20">
+      <path id="Path_11" data-name="Path 11" class="cls-1" d="M134.2,408.5l11.5-15.7H160c1.6,0,1.6.6.8,1.6-.8,1.1-2.1,2.9-2.9,4-.4.5-1.1,1.5,1.3,1.5h19.2c-1.6,2.2-6.8,8.5-16,8.5-7.6.1-28.2.1-28.2.1Z"/>
+      <path id="Path_12" data-name="Path 12" class="cls-1" d="M200.2,400.1l-6.2,8.5H177.5l6.2-8.5Z"/>
+      <path id="Path_13" data-name="Path 13" class="cls-1" d="M224,400.1l-6.2,8.5H201.3l6.2-8.5Z"/>
+      <path id="Path_14" data-name="Path 14" class="cls-1" d="M229.4,400.1l-1.8,2.4c-2.1,2.8-.2,6.1,6.5,6.1h26.5l6.2-8.5Z"/>
+    </g>
+    <g id="Group_21" data-name="Group 21">
+      <path id="Path_15" data-name="Path 15" class="cls-1" d="M142.3,383.2l-5.7,7.8h31.3c1.6,0,1.6.6.8,1.6-.8,1.1-2.1,2.9-2.9,4-.4.5-1.1,1.5,1.3,1.5h12.8s2.1-2.8,3.8-5.1c2.4-3.2.2-9.8-8.2-9.8Z"/>
+      <path id="Path_16" data-name="Path 16" class="cls-1" d="M225.4,398.1H185.1l11.1-14.9h16.4l-6.3,8.5h7.4l6.3-8.5h16.5Z"/>
+      <path id="Path_17" data-name="Path 17" class="cls-1" d="M259.3,383.2l-11,15H230.8l11-15Z"/>
+    </g>
+  </g>
+</svg>

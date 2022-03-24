@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    max-width: 100%;
+    font-family: Montserrat;
+}
+
+header {
+    background: #ffe600;
+    width: 100%;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 40px 0 20px;
+}
+
+.dhlLogo {
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.dpdhlLogo {
+    width: 150px;
+}
+
+
+.majorDivForAll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+.InfoDivs {
+    padding: 50px;
+    width: 70%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.065);
+}
+
+.InfoDivs h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: firebrick;
+}

@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    max-width: 100%;
+    font-family: Montserrat;
+}
+
+header {
+    background: #ffe600;
+    width: 100%;
+    padding: 20px;
+}
+
+.dhlLogo {
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.dpdhlLogo {
+    width: 150px;
+}
+
+.majorDivForAll {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+.InfoDivs {
+    padding: 50px;
+    width: 70%;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.065);
+}
+
+.InfoDivs h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: firebrick;
+}
+
+.inputDivs {
+    display: flex;
+    width: 100%;
+    /* background-color: lightgreen; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inputField {
+    padding: 10px;
+    width: 23%;
+    background: none;
+    border: none;
+    margin: 10px 5px;
+    border-bottom: 2px solid black;
+}
+
+.inputField:focus {
+    border: solid black 2px;
+}
+
+input[type=submit] {
+    background: none;
+    border: none;
+    font-size: 17px;
+    background: #ffe600;
+    box-shadow: 20px 15px 40px 0 rgba(0, 0, 0, 0.274);
+    padding: 10px 70px;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 30px;
+}
